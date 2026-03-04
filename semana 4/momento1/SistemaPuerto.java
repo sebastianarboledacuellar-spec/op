@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class SistemaPuerto {
     private Contenedor[][] matrizPuerto = new Contenedor[10][10];
     private String[] buques = new String[10];
