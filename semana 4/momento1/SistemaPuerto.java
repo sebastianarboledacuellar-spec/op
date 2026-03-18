@@ -13,7 +13,7 @@ public class SistemaPuerto {
         }
     }
 
-    // Registr Contenedor con regla de apilado (de abajo hacia arriba)
+    // Registra Contenedor con regla de apilado (de abajo hacia arriba)
     public void registrarContenedor(int columna, double peso, String origen) {
         if (columna < 0 || columna >= 10) {
             System.out.println("Columna inválida.");
